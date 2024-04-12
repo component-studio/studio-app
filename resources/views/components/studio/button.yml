@@ -1,0 +1,13 @@
+# button.yml
+name: Button
+description: "A reusable button component that supports multiple sizes and colors."
+component: ui.button
+props:
+  size:
+    type: "text"
+    description: "The size of the button. Possible values: small, medium, large."
+    default: "md"
+    options:
+      - "sm"
+      - "md"
+      - "lg"

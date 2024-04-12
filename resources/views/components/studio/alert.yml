@@ -1,0 +1,35 @@
+# alert.yml
+name: Alert
+description: "A component used to display various types of alerts and messages to the user. Supports multiple severity levels like info, success, warning, and error."
+component: alert
+props:
+  message:
+    type: "string"
+    description: "The message text displayed within the alert."
+    required: true
+  type:
+    type: "string"
+    description: "Defines the type and styling of the alert. Possible values: info, success, warning, error."
+    default: "info"
+    options:
+      - "info"
+      - "success"
+      - "warning"
+      - "error"
+  dismissible:
+    type: "boolean"
+    description: "Whether the alert can be dismissed by the user."
+    default: false
+examples:
+  - title: "Info Alert"
+    description: "An informational alert typically used for neutral messages."
+    code: '<div class="alert alert-info">This is an info alert.</div>'
+  - title: "Success Alert"
+    description: "A success alert used to indicate successful operations."
+    code: '<div class="alert alert-success">Operation successful!</div>'
+  - title: "Warning Alert"
+    description: "A warning alert used to signal caution to the user."
+    code: '<div class="alert alert-warning">Warning: Please read carefully.</div>'
+  - title: "Error Alert"
+    description: "An error alert used to display error messages."
+    code: '<div class="alert alert-error">Error: Something went wrong.</div>'
