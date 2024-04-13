@@ -15,3 +15,5 @@ Route::view('profile', 'profile')
 require __DIR__.'/auth.php';
 
 Route::view('components', 'components');
+
+Route::view('tst', 'tst');

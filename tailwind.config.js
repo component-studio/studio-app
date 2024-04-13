@@ -7,13 +7,15 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './resources/views/livewire/*.blade.php',
+        './app/Livewire/*.php'
     ],
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
+            boxShadow: {
+                'top-left': '-5px -5px 17px -8px rgba(0, 0, 0, 0.75)',
+            }
         },
     },
 

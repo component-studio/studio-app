@@ -1,0 +1,8 @@
+# jetstream-button.yml
+name: Button
+description: "A reusable button component that supports multiple sizes and colors."
+component: jetstream.button
+slot:
+  name: default
+  description: "The content to be displayed within the button."
+  default: "Click Me"

@@ -1,0 +1,9 @@
+# application-logo.yml
+name: Logo
+description: "A simple logo component that can be used to display an application logo."
+component: jetstream.application-logo
+props:
+  class:
+    type: "text"
+    description: "The class to be applied to the logo."
+    default: "h-12 w-auto"

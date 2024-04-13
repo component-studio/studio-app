@@ -1,0 +1,30 @@
+# button.yml
+name: Button
+description: "A reusable button component that supports multiple sizes and colors."
+component: ui.button
+slot:
+  name: default
+  description: "The content to be displayed within the button."
+  default: "Click Me"
+props:
+  size:
+    type: "select"
+    description: "The size of the button. Possible values: small, medium, large."
+    default: "md"
+    options:
+      - "sm"
+      - "md"
+      - "lg"
+      - "xl"
+      - "2xl"
+  type:
+    type: "select"
+    description: "The color of the button"
+    default: "primary"
+    options:
+      - primary
+      - secondary
+      - success
+      - info
+      - warning
+      - danger

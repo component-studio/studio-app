@@ -1,0 +1,8 @@
+# jetstream-modal.yml
+name: Modal
+description: "A reusable modal component that supports multiple sizes and colors."
+component: jetstream.modal
+slot:
+  name: default
+  description: "The content to be displayed within the button."
+  default: "<div class='bg-white p-10'>Click Me</button>"
